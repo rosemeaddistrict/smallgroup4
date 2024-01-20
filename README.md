@@ -1,4 +1,4 @@
 # smallgroup4
-mkdir 12222023
-cp index.html ./12222023
-cp -r ./msg ./12222023
+mkdir 01122024
+cp index.html ./01122024
+cp -r ./msg ./01122024
