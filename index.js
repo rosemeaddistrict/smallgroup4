@@ -7,8 +7,8 @@ homes.set("李庆弟兄/云苹姊妹家", addr);
 const img = './pics/smallgrroup.jpg'; 
 const date = `11/15/2024`;
 const home = homes.get("李庆弟兄/云苹姊妹家");
-const hymn_name = "补充本诗歌429首 主到我这里来";
-const hymn_link = "https://rosemeaddistrict.github.io/myhymns/%E8%A9%A9%E6%AD%8C/%E8%A3%9C%E5%85%85%E6%9C%AC/429%E4%B8%BB%E5%88%B0%E6%88%91%E8%BF%99%E9%87%8C%E6%9D%A5.html";
+const hymn_name = "大本詩歌588 主阿，我来就你";
+const hymn_link = "https://rosemeaddistrict.github.io/myhymns/%E8%A9%A9%E6%AD%8C/%E5%A4%A7%E6%9C%AC/588%E4%B8%BB%E9%98%BF%EF%BC%8C%E6%88%91%E6%9D%A5%E5%B0%B1%E4%BD%A0.html";
 const book_name = "牧养材料96题 第三系列 信而顺服";
 const chapter  = "第八题　叫饥饿的得饱美物";
 const chapter_link = "https://e-shepherding.org/%e7%ac%ac%e5%85%ab%e9%a2%98%e3%80%80%e5%8f%ab%e9%a5%a5%e9%a5%bf%e7%9a%84%e5%be%97%e9%a5%b1%e7%be%8e%e7%89%a9/" 
