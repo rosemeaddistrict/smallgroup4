@@ -16,6 +16,8 @@ let addr = `Paul/Tina家,Paul/Tina家, <a href="https://maps.app.goo.gl/v6BpSCsM
 homes.set("Tina/Paul", addr);
 addr = `李庆弟兄/云苹姊妹家, <a href="https://maps.app.goo.gl/8KkehPoADML4cGrJ9">4970 Loma Ave. Temple City, 91780</a>`;
 homes.set("李庆弟兄/云苹姊妹家", addr);
+addr = `燕冷姊妹家, <a href="https://maps.app.goo.gl/SnqT3TZWdZtBwtWy6">6209 Rosemead Blvd. Temple City`;
+homes.set("燕冷姊妹家", addr);
 
 // const img = './pics/smallgrroup.jpg'; 
 // const date = `11/15/2024`;
