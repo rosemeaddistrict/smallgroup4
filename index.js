@@ -143,7 +143,4 @@ async function displayItems(page, element) {
     document.getElementById('class').innerHTML = `<a href=${chapter_link}>${chapter}</a>`;
 }
 
-https://drive.google.com/file/d/1VvHkjo-zEn8C_YN6OitIFK7CzcqKxymq/view?usp=drive_link
-
-1VvHkjo-zEn8C_YN6OitIFK7CzcqKxymq
 
