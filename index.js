@@ -18,6 +18,8 @@ addr = `李庆弟兄/云苹姊妹家, <a href="https://maps.app.goo.gl/8KkehPoAD
 homes.set("李庆弟兄/云苹姊妹家", addr);
 addr = `燕冷姊妹家, <a href="https://maps.app.goo.gl/SnqT3TZWdZtBwtWy6">6209 Rosemead Blvd. Temple City`;
 homes.set("燕冷姊妹家", addr);
+addr = `陈洪弟兄/张姐妹家, <a href="https://maps.app.goo.gl/CBv2y8nerMfBkAhA8">2025 Meridian Ave, South Pasadena, CA 91030`;
+homes.set("陈洪弟兄/张姐妹家", addr);
 
 // const img = './pics/smallgrroup.jpg'; 
 // const date = `11/15/2024`;
