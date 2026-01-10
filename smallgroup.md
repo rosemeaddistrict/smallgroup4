@@ -1,8 +1,11 @@
 <img src="./pics/smallgrroup.jpg" width="100%" /> 
 
 ## 日期: 周五(1/9/2026) 晚上七点
-- 诗歌: 大本诗歌533 永远生命带来生命 [歌词](https://rosemeaddistrict.github.io/myhymns/%E8%A9%A9%E6%AD%8C/%E5%A4%A7%E6%9C%AC/533%E6%B0%B8%E8%BF%9C%E7%94%9F%E5%91%BD%E5%B8%A6%E6%9D%A5%E7%94%9F%E5%91%BD.html)
-- 进度: 生命的认识 -- [第五篇 生命的感觉](https://ezoe.work/books/2/2023-5.html)
+#### 诗歌
+- 大本诗歌533 永远生命带来生命 [歌词](https://rosemeaddistrict.github.io/myhymns/%E8%A9%A9%E6%AD%8C/%E5%A4%A7%E6%9C%AC/533%E6%B0%B8%E8%BF%9C%E7%94%9F%E5%91%BD%E5%B8%A6%E6%9D%A5%E7%94%9F%E5%91%BD.html).  
+- 大本诗歌534 里面生命的各方面-生命的感觉 [歌词](https://rosemeaddistrict.github.io/myhymns/%E8%A9%A9%E6%AD%8C/%E5%A4%A7%E6%9C%AC/534%E8%A3%A1%E9%9D%A2%E7%94%9F%E5%91%BD%E7%9A%84%E5%90%84%E6%96%B9%E9%9D%A2-%E7%94%9F%E5%91%BD%E7%9A%84%E6%84%9F%E8%A6%BA.html).  
+    
+### 进度: 生命的认识 -- [第五篇 生命的感觉](https://ezoe.work/books/2/2023-5.html)
   
 <hr></hr>
   
