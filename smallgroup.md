@@ -48,5 +48,11 @@
 <hr></hr>
   
 ## 生命的认识展览
-- 进度: 生命的认识 [第5](https://ezoe.work/books/2/2023-5.html), [6篇](https://ezoe.work/books/2/2023-6.html) 圣经要道 [第21](https://ezoe.work/books/4/4010-21.html), [22题](https://ezoe.work/books/4/4010-22.html)
-- 展览日期: 1.15.2025
+### 进度
+#### 生命的认识 
+- [第5篇 生命的感觉](https://ezoe.work/books/2/2023-5.html)
+- [第6篇 生命的交通](https://ezoe.work/books/2/2023-6.html) 
+#### 圣经要道 
+- [第21题 顺服生命的感觉](https://ezoe.work/books/4/4010-21.html)
+- [第22题 活在生命的交通里](https://ezoe.work/books/4/4010-22.html)
+### 展览日期: 1.15.2025
