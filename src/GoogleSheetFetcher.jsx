@@ -10,10 +10,10 @@ function GoogleSheetFetcher() {
     // 2. Build the URL using your environment variables
     // Note: Change process.env to import.meta.env if you are using Vite
     const apiKey = import.meta.env.VITE_SHEETS_API_KEY;
-    const sheetId = "15lf3aRMSy7tOewzxDDmNmAOV5wmxrykNQ-cajwsQiGw"; // Replace with your actual Google Sheet ID
+    const sheetId = "17uZCgJJ7SJoOUBByca3xAGxbMDYcoP-oN38EAJcLRx8"; // Replace with your actual Google Sheet ID
 
     // Define the exact sheet name and cell range you want to read
-    const range = 'Main!A2:G7'; // Adjust this range as needed
+    const range = 'main!A1:D10'; // Adjust this range as needed
     const url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${range}?key=${apiKey}`;
 
     // 3. Fetch the data from Google
@@ -42,20 +42,11 @@ function GoogleSheetFetcher() {
 
   return (
     <div>
-    <h1>本周({sheetData[0]?.[1]})晨兴与读经进度</h1>
+    <h1>{sheetData[0]?.[0]}</h1>
     <hr></hr>
     <br></br>
     <h2>{sheetData[1]?.[0]}</h2>
-    <h3>书目: {sheetData[1]?.[1]} {sheetData[1]?.[2]}</h3>
-    <h3>进度: <a href={sheetData[1]?.[4]}>{sheetData[1]?.[3]}</a></h3>
-    <br></br>
-    <h2>{sheetData[2]?.[0]}</h2>
-    <h3>{sheetData[2]?.[1]}: <a href={sheetData[2]?.[4]}>{sheetData[2]?.[2]}</a></h3>
-    <h3>{sheetData[3]?.[1]}: <a href={sheetData[3]?.[4]}>{sheetData[3]?.[2]}</a></h3>
-    <br></br>
-    <h2>{sheetData[4]?.[0]}</h2>
-    <h3>{sheetData[4]?.[1]}: <a href={sheetData[4]?.[4]}>{sheetData[4]?.[2]}</a></h3>
-    <h3>{sheetData[5]?.[0]}: {sheetData[5]?.[1]}</h3>
+    <h3><a href={sheetData[1]?.[2]}>{sheetData[1]?.[1]}</a>, {sheetData[1]?.[2]}</h3>
     </div>
   );
 }
