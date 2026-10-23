@@ -47,7 +47,7 @@ function GoogleSheetFetcher() {
     <hr></hr>
     {/* Content List */}
     <h2>{sheetData[1]?.[0]}: <a href={sheetData[1]?.[2]}>{sheetData[1]?.[1]}</a></h2>
-    <h2>{sheetData[2]?.[0]}: {sheetData[2]?.[1]}</h2>
+    <h2>{sheetData[2]?.[0]}: <a href={sheetData[2]?.[2]}>{sheetData[2]?.[1]}</a></h2>
     {/* Verses */}
     <h2>{sheetData[3]?.[0]}</h2>
     <p>{sheetData[3]?.[1]}</p>
