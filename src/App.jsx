@@ -1,6 +1,5 @@
 import React from 'react'
-import Mainframe from './Mainframe.jsx'
-import './App.css'
+import GoogleSheetFetcher from './GoogleSheetFetcher'
 
 function App() {
 
@@ -8,7 +7,7 @@ function App() {
 
   return (
     <>
-      <Mainframe />
+      <GoogleSheetFetcher />
     </>
   );
 }
