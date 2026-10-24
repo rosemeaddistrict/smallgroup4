@@ -5,6 +5,8 @@ function GoogleSheetFetcher() {
   const [sheetData, setSheetData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
+  const verseIndex = 3; // The row index for the verse you want to fetch (0-based)
+  const lifeStudyIndex = 8; // The row index for the life study you want to fetch (0-based)
 
   useEffect(() => {
     // 2. Build the URL using your environment variables
@@ -42,33 +44,23 @@ function GoogleSheetFetcher() {
 
   return (
     <div>
-    {/* Title */}
+    {/* Titles */}
     <h1>{sheetData[0]?.[0]} {sheetData[0]?.[1]}</h1>
     <hr></hr>
     {/* Content List */}
     <h2>{sheetData[1]?.[0]}: <a href={sheetData[1]?.[2]}>{sheetData[1]?.[1]}</a></h2>
     <h2>{sheetData[2]?.[0]}: <a href={sheetData[2]?.[2]}>{sheetData[2]?.[1]}</a></h2>
     {/* Verses */}
-    <h2>{sheetData[3]?.[0]}</h2>
-    <p>{sheetData[3]?.[1]}</p>
-    <p>{sheetData[4]?.[1]}</p>
-    <p>{sheetData[5]?.[1]}</p>
+    <h2>{sheetData[verseIndex]?.[0]}</h2>
+    {sheetData.map((row, index) => {
+      // Skip the first 20 rows since they are already displayed above
+      if (index >= verseIndex && index < lifeStudyIndex) return <p>{row?.[1]}</p>;
+    })}
     {/* Life Study */}
-    <h2>{sheetData[6]?.[0]}</h2>
-    <p>{sheetData[6]?.[1]}</p>
-    <p>{sheetData[7]?.[1]}</p>
-    <p>{sheetData[8]?.[1]}</p>
-    <p>{sheetData[9]?.[1]}</p>
-    <p>{sheetData[10]?.[1]}</p>
-    <p>{sheetData[11]?.[1]}</p>
-    <p>{sheetData[12]?.[1]}</p>
-    <p>{sheetData[13]?.[1]}</p>
-    <p>{sheetData[14]?.[1]}</p>
-    <p>{sheetData[15]?.[1]}</p>
-    <p>{sheetData[16]?.[1]}</p>
-    <p>{sheetData[17]?.[1]}</p>
-    <p>{sheetData[18]?.[1]}</p>
-    <p>{sheetData[19]?.[1]}</p>
+    <h2>{sheetData[lifeStudyIndex]?.[0]}</h2>
+    {sheetData.map((row, index) => {
+      if (index >= lifeStudyIndex) return <p>{row?.[1]}</p>;
+    })}
     <hr></hr>
     </div>
   );
