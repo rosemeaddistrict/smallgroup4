@@ -52,15 +52,10 @@ function GoogleSheetFetcher() {
     <h2>{sheetData[2]?.[0]}: <a href={sheetData[2]?.[2]}>{sheetData[2]?.[1]}</a></h2>
     {/* Verses */}
     <h2>{sheetData[verseIndex]?.[0]}</h2>
-    {sheetData.map((row, index) => {
-      // Skip the first 20 rows since they are already displayed above
-      if (index >= verseIndex && index < lifeStudyIndex) return <p>{row?.[1]}</p>;
-    })}
+    {sheetData[verseIndex]?.[1].split('\n').map((line, i) => <p key={i}>{line}</p>)}
     {/* Life Study */}
     <h2>{sheetData[lifeStudyIndex]?.[0]}</h2>
-    {sheetData.map((row, index) => {
-      if (index >= lifeStudyIndex) return <p>{row?.[1]}</p>;
-    })}
+    {sheetData[lifeStudyIndex]?.[1].split('\n').map((line, i) => <p key={i}>{line}</p>)}
     <hr></hr>
     </div>
   );
